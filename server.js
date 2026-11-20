@@ -17,7 +17,8 @@ const { Server } = require("socket.io");
 const DEFAULT_WORDS = require("./words");
 
 const PORT = Number(process.env.PORT) || 8080;
-const ROOT = __dirname;
+// Only public/ is exposed over HTTP, which is also what a static host publishes.
+const ROOT = path.join(__dirname, "public");
 const SKRIBBL_PLAY_API = process.env.SKRIBBL_PLAY_API || "https://skribbl.io/api/play";
 
 /* ------------------------------------------------------------------ *
