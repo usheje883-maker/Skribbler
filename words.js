@@ -52,5 +52,5 @@ module.exports = [
   "fountain", "bench", "streetlamp", "trafficlight", "crosswalk", "skyscraper",
   "farm", "barn", "tractor", "scarecrow", "beehive", "nest", "feather",
   "shell", "coral", "seaweed", "wave", "current", "sailboat", "canoe", "raft",
-  "surfboard", "snorkel", "diving", "lifeguard", "sandcastle", "sunburn",
+  "surfboard", "snorkel", "diving", "lifeguard", "sandcastle", "sunburn","sidney","bryan","I can't do logan", "white party", "that crazy night", "Ethen the biggie", "pirate token", "Roblox", "belly rolls (Ethen)"
 ];
